@@ -1,0 +1,65 @@
+@import 'variables';
+@import 'mixins';
+
+.btn_sedans {
+    background-color:  $VeryLightGray;
+    width: 45%;
+    font-size: 20px;
+    margin-top: 70px;
+    color: $BrightOrange;
+    height: 45px;
+    text-align: center;
+    border-radius: 20px;
+    border: none;
+    margin-left: 50px;
+    @include fontLexend;
+     font-size: 15px;
+     
+     &:hover{
+      background-color: $BrightOrange;
+      color: $VeryLightGray;
+      cursor: pointer;
+    }
+}
+
+.btn_suv {
+  background-color:  $VeryLightGray;
+  width: 45%;
+  font-size: 20px;
+  margin-top:64px;
+  color: $DarkCyan;
+  height: 45px;
+  text-align: center;
+  border-radius: 20px;
+  border: none;
+  margin-left: 55px;
+  @include fontLexend;
+   font-size: 15px;
+
+   &:hover{
+    background-color: $DarkCyan;
+    color: $VeryLightGray;
+    cursor: pointer;
+  }
+}
+
+.btn_luxury {
+            background-color:  $VeryLightGray;
+            width: 45%;
+            font-size: 20px;
+            margin-top: 65px;
+            color: $VeryDarkCyan;
+            height: 45px;
+            text-align:center;
+            border-radius: 20px;
+            border: none;
+            margin-left: 55px;
+             @include fontLexend;
+             font-size: 15px;
+           
+            &:hover{
+              background-color: $VeryDarkCyan;
+              color: $VeryLightGray;
+              cursor: pointer
+  }
+}

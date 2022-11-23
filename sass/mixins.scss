@@ -1,0 +1,36 @@
+@mixin flexCenter{
+    display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+
+  @mixin fontLexend{
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight:400;
+  }
+  @mixin fontBigShouldersDisplay{
+     font-family: 'Big Shoulders Display', cursive;
+    font-weight:700;
+    
+  }
+  @mixin flexLeft{
+    display: flex;
+        flex-direction: column;
+        text-align: left;
+  }
+
+@mixin media-sm {
+  @media screen and (min-width:376px) {
+    @content;
+  }
+}
+@mixin media-md {
+  @media screen and (min-width:768px) {
+    @content;
+  }
+}
+@mixin media-lg {
+  @media screen and (max-width:1024px) {
+    @content;
+  }
+}

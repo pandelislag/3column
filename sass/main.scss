@@ -1,0 +1,115 @@
+@import "base";
+@import "variables";
+@import "mixins";
+@import "button";
+@import "responsive";
+
+
+#container{
+    display: flex;
+    height: 550px;
+    width: 960px;  
+   
+    .container-sedans{
+        background-color:$BrightOrange;
+        border-top-left-radius:7px;
+        border-bottom-left-radius:7px;
+        @include flexLeft;
+        width:$width-containers;
+        img{
+          width: 20%;
+          margin-top: 60px; 
+          margin-left: 45px;
+        margin-bottom: 15px;
+        
+        }
+        h3 {
+        font-size: 40px;
+        width: 66%;
+        margin-bottom: 15px;
+        margin-top: 15px;
+        @include fontBigShouldersDisplay;
+        color: $VeryLightGray;
+        }
+        p {
+          font-size: 15px;
+          @include fontLexend;
+          color:  $TransparentWhite;
+          width: 65%;
+          line-height: 1.8;
+          margin-top: 20px;
+        }
+        .btn {
+            @extend .btn_sedans; 
+        }
+    }
+    .container-suv{
+        background-color:$DarkCyan;
+        @include flexLeft;
+        width:$width-containers;
+
+        img{
+          width: 20%;
+          margin-top: 60px; 
+          margin-left: 40px;
+        margin-bottom: 15px;
+        
+        }
+        h3 {
+        font-size: 40px;
+        width: 66%;
+        text-align: left;
+        margin-top: 15px;
+       @include fontBigShouldersDisplay;
+        color: $VeryLightGray;
+        }
+        p {
+          font-size: 15px;
+         @include fontLexend;
+          color:  $TransparentWhite;
+          width: 65%;
+          line-height: 1.8;
+          margin-top: 42px;
+        }
+        .btn {
+           @extend .btn_suv
+        }
+
+    }
+    .container-luxury{
+        background-color:$VeryDarkCyan;
+        border-top-right-radius:7px;
+        border-bottom-right-radius:7px;
+        @include flexLeft;
+        width:$width-containers;
+
+        img{
+          width: 20%;
+          margin-top: 60px; 
+          margin-left: 50px;
+        margin-bottom: 15px;
+        
+        }
+        h3 {
+        font-size: 40px;
+        width: 66%;
+        margin-bottom: 20px;
+        margin-top: 15px;
+        @include fontBigShouldersDisplay;
+        color: $VeryLightGray;
+        }
+        p {
+          font-size: 15px;
+          @include fontLexend;
+          color:  $TransparentWhite;
+          line-height: 1.8;
+          margin-top: 20px;
+          width: 66%;
+        }
+        .btn {
+            @extend .btn_luxury
+          }
+    }
+
+}
+

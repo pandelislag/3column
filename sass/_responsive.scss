@@ -1,0 +1,11 @@
+@include media-lg {
+    #container{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    
+    .btn {
+        margin-bottom: 50px;
+    }
+}

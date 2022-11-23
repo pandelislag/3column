@@ -1,0 +1,16 @@
+@import "variables";
+@import"mixins";
+
+
+*{
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    @include flexCenter();
+    min-height: 100vh;
+    background-color:  $VeryLightGray;
+}
+
