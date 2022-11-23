@@ -1,0 +1,167 @@
+* {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #f2f2f2; }
+
+.btn_sedans, #container .container-sedans .btn {
+  background-color: #f2f2f2;
+  width: 45%;
+  font-size: 20px;
+  margin-top: 70px;
+  color: #e38826;
+  height: 45px;
+  text-align: center;
+  border-radius: 20px;
+  border: none;
+  margin-left: 50px;
+  font-family: 'Lexend Deca', sans-serif;
+  font-weight: 400;
+  font-size: 15px; }
+  .btn_sedans:hover, #container .container-sedans .btn:hover {
+    background-color: #e38826;
+    color: #f2f2f2;
+    cursor: pointer; }
+
+.btn_suv, #container .container-suv .btn {
+  background-color: #f2f2f2;
+  width: 45%;
+  font-size: 20px;
+  margin-top: 64px;
+  color: #006970;
+  height: 45px;
+  text-align: center;
+  border-radius: 20px;
+  border: none;
+  margin-left: 55px;
+  font-family: 'Lexend Deca', sans-serif;
+  font-weight: 400;
+  font-size: 15px; }
+  .btn_suv:hover, #container .container-suv .btn:hover {
+    background-color: #006970;
+    color: #f2f2f2;
+    cursor: pointer; }
+
+.btn_luxury, #container .container-luxury .btn {
+  background-color: #f2f2f2;
+  width: 45%;
+  font-size: 20px;
+  margin-top: 65px;
+  color: #004241;
+  height: 45px;
+  text-align: center;
+  border-radius: 20px;
+  border: none;
+  margin-left: 55px;
+  font-family: 'Lexend Deca', sans-serif;
+  font-weight: 400;
+  font-size: 15px; }
+  .btn_luxury:hover, #container .container-luxury .btn:hover {
+    background-color: #004241;
+    color: #f2f2f2;
+    cursor: pointer; }
+
+@media screen and (max-width: 1024px) {
+  #container {
+    display: flex;
+    flex-direction: column;
+    width: 100%; }
+  .btn {
+    margin-bottom: 50px; } }
+
+#container {
+  display: flex;
+  height: 550px;
+  width: 960px; }
+  #container .container-sedans {
+    background-color: #e38826;
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    width: 320px; }
+    #container .container-sedans img {
+      width: 20%;
+      margin-top: 60px;
+      margin-left: 45px;
+      margin-bottom: 15px; }
+    #container .container-sedans h3 {
+      font-size: 40px;
+      width: 66%;
+      margin-bottom: 15px;
+      margin-top: 15px;
+      font-family: 'Big Shoulders Display', cursive;
+      font-weight: 700;
+      color: #f2f2f2; }
+    #container .container-sedans p {
+      font-size: 15px;
+      font-family: 'Lexend Deca', sans-serif;
+      font-weight: 400;
+      color: rgba(255, 255, 255, 0.75);
+      width: 65%;
+      line-height: 1.8;
+      margin-top: 20px; }
+  #container .container-suv {
+    background-color: #006970;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    width: 320px; }
+    #container .container-suv img {
+      width: 20%;
+      margin-top: 60px;
+      margin-left: 40px;
+      margin-bottom: 15px; }
+    #container .container-suv h3 {
+      font-size: 40px;
+      width: 66%;
+      text-align: left;
+      margin-top: 15px;
+      font-family: 'Big Shoulders Display', cursive;
+      font-weight: 700;
+      color: #f2f2f2; }
+    #container .container-suv p {
+      font-size: 15px;
+      font-family: 'Lexend Deca', sans-serif;
+      font-weight: 400;
+      color: rgba(255, 255, 255, 0.75);
+      width: 65%;
+      line-height: 1.8;
+      margin-top: 42px; }
+  #container .container-luxury {
+    background-color: #004241;
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    width: 320px; }
+    #container .container-luxury img {
+      width: 20%;
+      margin-top: 60px;
+      margin-left: 50px;
+      margin-bottom: 15px; }
+    #container .container-luxury h3 {
+      font-size: 40px;
+      width: 66%;
+      margin-bottom: 20px;
+      margin-top: 15px;
+      font-family: 'Big Shoulders Display', cursive;
+      font-weight: 700;
+      color: #f2f2f2; }
+    #container .container-luxury p {
+      font-size: 15px;
+      font-family: 'Lexend Deca', sans-serif;
+      font-weight: 400;
+      color: rgba(255, 255, 255, 0.75);
+      line-height: 1.8;
+      margin-top: 20px;
+      width: 66%; }
